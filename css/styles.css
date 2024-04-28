@@ -1,0 +1,306 @@
+header {
+    width: auto;
+    height: 0.1px;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    font-weight: 700px;
+    font-size: 19px
+}
+
+#header-left {
+    width: 30%;
+    height: 70px;
+    display: flex;
+}
+
+#header-menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px;
+
+}
+
+#subscribeToNewsLetters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font: 16px / 16px Work Sans, sans-serif;
+
+}
+
+
+#header-rigth {
+    width: 30%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+#subscribe-Botton {
+    width: 50%;
+    height: 40px;
+    background-color: #dc0000;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    font: 16px Work Sans, sans-serif;
+}
+
+#sign-In {
+    color: #fff;
+    font: normal 14px / 1.38 Work Sans, sans-serif;
+    letter-spacing: -.2px;
+    padding: 10px 16px;
+}
+
+#search-button {
+    margin-left: 20px;
+}
+
+/**/
+
+#carousel {
+    background-color: white;
+    
+    width: auto;
+    height: 130px;
+    display: flex;
+    flex-direction: row;
+}
+
+#blank-div {
+    
+    width: 80px;
+    height: 130px;
+}
+
+#first-carousel {
+    width: 500px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#breaking {
+    background-color: red;
+    width: 85px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-size: small;
+
+}
+
+span {
+    margin-left: 20px;
+    font-size: medium;
+    color: rgb(140, 139, 139);
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 3px;
+    color: black;
+}
+
+
+#second-carousel {
+    width: 420px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#blank-space {
+    height: 60px;
+}
+
+.line {
+    border: 1px solid rgb(196, 193, 193);
+    height: 70px;
+    margin-top: 50px;
+}
+
+#third-carousel {
+    width: 420px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#blank-space {
+    height: 60px;
+}
+
+
+#fourth-carousel {
+    width: 420px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#blank-space {
+    height: 60px;
+}
+
+#blank-div2 {
+    width: 80px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#grey-circle {
+    border-radius: 30px;
+    background-color: rgb(175, 173, 173);
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+
+#carousel-line{
+width: auto;
+border: solid 0.5px rgb(225, 223, 223);    
+}
+#us-edition {
+    width: auto;
+    height: 60px;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    color: #737373;
+    display: flex;
+    align-items: flex-end;
+    font: 500 12px / 1.33 Work Sans, sans-serif;
+}
+
+#grey-line {
+    width: 1390px;
+    border: 1px solid rgb(174, 172, 172);
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+
+#main-sec1 {
+    flex-basis: 60%;
+    height: 500px;
+    margin-right: 20px;
+}
+
+
+#main-sec2 {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#main-line {
+    border: 1px solid rgb(184, 180, 180);
+    height: 500px;
+}
+
+h1{
+    margin-left: 20px;
+
+}
+
+span {
+    color: #333;
+    font: 12px / 16px Work Sans, sans-serif;
+    margin-left: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
+#SignIn-button {
+    width: 150px;
+    background-color: #007ac8;
+    color: white;
+    align-items: center;
+    border-radius: 8px;
+    display: inline-flex;
+    font-family: Work Sans, sans-serif;
+    font: inherit;
+    padding: 11px 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+
+.premium{
+    color: #706031;
+    font: 600 10px / 12px Work Sans, sans-serif;
+    letter-spacing: .5px;
+    margin-left: 20px;
+    text-transform: uppercase;}
+
+#aside1{
+width: auto; 
+height: 120px;
+margin-left: 20px;
+margin-right: 20px; 
+display: flex;
+flex-direction: row; 
+}
+
+span{
+font-size: small;
+margin-top: 10px;
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+color: #333;
+font: 700 14px / 22px Merriweather, GeorgiaCustom;
+
+
+}
+#img1-aside{
+margin-left:80px;    
+}
+
+#aside2{
+    width: auto; 
+    height: 120px;
+    margin-left: 20px;
+    margin-right: 20px; 
+    display: flex;
+    flex-direction: row;}
+    
